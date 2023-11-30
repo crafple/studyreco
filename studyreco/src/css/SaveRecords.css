@@ -1,0 +1,61 @@
+.saverecords-container {
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.timer p {
+  text-align: center;
+  font-size: 4.0rem;
+}
+
+.saverecords-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.btns p {
+  color: white;
+
+}
+
+.btn-start {
+  width: 22%;
+  height: 70px;
+  border: 1px solid rgb(158, 158, 158);
+  color: white;
+  background-color: #4aa65b;
+}
+
+.btn-stop {
+  width: 22%;
+  height: 70px;
+  border: 1px solid rgb(158, 158, 158);
+  color: white;
+  background-color: #4aa65b;
+
+}
+
+.btn-rest {
+  width: 22%;
+  height: 70px;
+  border: 1px solid rgb(158, 158, 158);
+  color: white;
+  background-color: #4aa65b;
+
+}
+
+.btn-submit {
+  width: 22%;
+  height: 70px;
+  border: 1px solid rgb(158, 158, 158);
+  color: white;
+  background-color: #4aa65b;
+
+}

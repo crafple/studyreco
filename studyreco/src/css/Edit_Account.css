@@ -1,0 +1,44 @@
+.account-edit-form{
+    width: 80%;
+    height: 40vh;
+    margin-top: 20px;
+    background-color:white;
+    border-radius: 10px;
+    position: relative; 
+    padding: 1%;
+  }
+  .account-edit-container{
+    width: 90%;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 1%;
+  }
+  .account-edit-form table {
+    width: 80%;
+    border-spacing: 0;
+  }
+  .account-edit-form th,.account-edit-form td {
+  
+    border-bottom: solid 1px;
+  }
+  .account-edit-form th {
+    text-align: left;
+    padding: 2%;
+  }
+  .account-edit-submit-btn{
+    width: 12%;
+  height: 16vh;
+  margin-top: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 100%;
+  background-color: #4aa65b;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  }
+  
+  

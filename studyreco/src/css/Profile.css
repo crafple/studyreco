@@ -1,0 +1,118 @@
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+}
+h2 {
+  border-bottom: 2px solid #08320474;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 100%;
+}
+p {
+  font-size: 1.2rem;
+}
+
+
+/* ユーザーの説明 */
+.profile-container {
+  display: flex;
+  padding: 2%;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.user-introduction {
+
+  background-image: linear-gradient(#ccc 1px, transparent 1px);
+
+  background-size: 100% 2.4em;
+  line-height: 2.4;
+  padding-bottom: 1px;
+
+
+
+}
+
+.user-description {
+  width: 20%;
+  height: 200px;
+  padding: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.detailed-userinfo {
+  width: 80%;
+  height: 600px;
+  padding: 2%;
+  border-radius: 10px;
+
+  background-color: white;
+
+
+}
+
+.detailed-userinfo textarea {
+  width: 90%;
+  height: 8vh;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.detailed-userinfo p {
+  font-size: 2rem;
+}
+
+/*テーブル*/
+.time-graph {
+  width: 90%;
+  height: 6vh;
+  margin-top: 10px;
+  border-spacing: 0;
+}
+
+.time-graph th {
+  height: 4vh;
+  background-color: rgb(142, 142, 142);
+  font-size: 1.2rem;
+  background-color: green;
+  color: white;
+}
+
+.time-graph td {
+  width: 30%;
+  height: 6vh;
+  font-size: 1.2rem;
+  background-color: rgb(224, 224, 224);
+  color: rgb(5, 44, 5);
+  border: solid 1px;
+}
+
+.edit-account-btn {
+  width: 20%;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: hsl(131, 38%, 47%);
+  color: white;
+}
+
+.edit-profile-btn2 {
+  width: 20%;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: hsl(131, 38%, 47%);
+  color: white;
+
+}
+
+.introduce {
+  margin-top: 10px;
+}

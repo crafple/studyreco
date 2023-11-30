@@ -1,0 +1,33 @@
+.register-container{
+    width: 50%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2%;
+    border-radius: 10px;
+  }
+
+
+.register-btn2{
+  width: 20%;
+  height: 4vh;
+  margin-top: 10px;
+
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+}
+.container-register input{
+  width: 60%;
+}
+@media screen and (max-width: 1024px) {
+  .register-btn2{
+    width: 30%;
+    height: 4vh;
+    margin-top: 10px;
+  
+    border: 1px solid rgb(158, 158, 158);
+    background-color: #4aa65b;
+    color: white;
+  }
+}

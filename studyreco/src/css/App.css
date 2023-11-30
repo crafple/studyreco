@@ -1,0 +1,366 @@
+/*共通要素*/
+
+body {
+  background-color: #e6e6e6;
+}
+.logo{
+  margin-left: 80px;
+}
+/* ヘッダー */
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #287d36;
+
+
+}
+
+
+header p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+header li {
+  color: white;
+  font-weight: bold;
+}
+
+ul  {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul li {
+  display: inline;
+}
+h3{
+  border-bottom: 2px solid #08320474;
+
+}
+
+
+/*バーガーメニュー*/
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+.menu-active {
+  transform: translateX(0%) !important;
+}
+
+
+
+.burger {
+  display: none;
+}
+header p {
+  margin-left: 4%;
+ 
+}
+header nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+header ul  {
+
+  
+
+}
+header ul li {
+  margin-right: 18px;
+  font-size: 1.2rem;
+}
+/* メイン */
+#main{
+ 
+  display: flex;
+}
+.app-container{
+  width: 50%;
+  height: 600px;
+  background-color: white;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding: 2%;
+  border-radius: 10px;
+  position:relative;
+  
+}
+.app-right-container{
+  width: 50%;
+  height: 600px;
+  background-color: white;
+  padding: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+.all-subjects li {
+  margin-right: 4px;
+}
+.usersubjects{
+  display: flex;
+  
+}
+.line-subjectsall p{
+  display: flex;
+  margin-right: 10px;
+
+}
+.circle{
+  margin-left: 4px;
+}
+.all-subjects{
+  height: 40%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subject-box{
+  width: 16%;
+  height: 70px;
+  margin-right: 10px;
+  margin-top: 6px;
+  border: 1px solid rgb(158, 158, 158);
+  position: relative;
+ 
+}
+.delete-btn{
+
+position: absolute;
+bottom: 66%;
+right: 0%;
+font-size: 1.8rem;
+color: red;
+}
+
+.time-bar {
+  height: 100%;
+  width: 10%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.time-bar p {
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0;
+}
+
+.chart{
+  width: 88%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.all-lines {
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.all-bars {
+ display: flex;
+ align-items: flex-end;
+ position: absolute;
+}
+
+.bar {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.login_btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #4aa65b;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  padding: 8px;
+ 
+  
+}
+button h2 {
+  text-decoration: none;
+  color: white;
+ 
+  
+}
+.subjectsall {
+  display: flex;
+}
+
+/*add*/
+
+.add-subject-btn{
+  width: 20%;
+  height: 10%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ 
+}
+.edit-subject-btn{
+  width: 100px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+}
+
+.res-add-subject-btn{
+  width: 100px;
+  height: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+  display: none;
+}
+
+.delete-seletectedsubject-btn{
+  width: 90px;
+  height: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+  position: absolute;
+  
+  right: 0;
+  bottom: 0;
+  display: none; 
+}
+
+
+.navigate-subject-btn{
+  width: 90px;
+  height: 10%;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white; 
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  display: none;
+}
+
+.attend-btn{
+  width: 100px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+}
+.login-info{
+ margin-top: -10px;
+}
+.pulldown-all-subjects{
+  display: none;
+}
+.pulldown-all-subjects{
+  width: 100%;
+}
+.pulldown-all-subjects select{
+  width: 100%;
+}
+.last-login{
+  margin-top: 0;
+  margin-right: 0; 
+  margin-bottom: 0;
+  margin-left: 2%;
+}
+/*メディアクエリ*/
+@media screen and (max-width: 1024px) {
+
+
+  .burger {
+    display: block;
+  }
+  header .ul_menu{
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    top: 62px;
+    background-color: rgb(12, 53, 34);
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    transform: translateX(-100%);
+    z-index: 1;
+    transition: transform 0.5s ease-in;
+  }
+  .all-subjects{
+    display: none;
+  }
+  .pulldown-all-subjects{
+    display: block;
+  }
+  .edit-subject-btn{
+    display: none;
+  }
+  .navigate-subject-btn{
+    display: block;
+  }
+  .delete-seletectedsubject-btn{
+    display: block;
+  }
+  .add-subject-btn{
+    display: none;
+  }
+  .res-add-subject-btn{
+    display: block;
+  }
+
+  
+
+  
+
+ 
+ 
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+  .edit-name-submit-btn {
+    width: 30%;
+    height: 120px;
+    }
+    .logo{
+      margin-left: 0;
+    }
+}

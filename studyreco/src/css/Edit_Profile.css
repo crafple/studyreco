@@ -1,0 +1,43 @@
+.update-profile-btn{
+  width: 10%;
+  height:180px;
+  margin-top: 20px;
+  margin-right: 80px;
+
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 100%;
+  background-color: #4aa65b;
+  color: white;
+  position: absolute;
+  right: 0;
+
+}
+
+.container-edit-profile{
+   display: flex;
+    padding: 2%;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.detailed-userinfo textarea{
+  height: 80px;
+}
+.detailed-userinfo-btns{
+  display: flex;
+  
+}
+.detailed-userinfo input{
+  width: 90%;
+  height: 80px;
+  margin-top: 1%;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1024px) {
+  .update-profile-btn {
+    width: 24%;
+    height: 160px;
+    margin-right: 30px;
+    }
+}

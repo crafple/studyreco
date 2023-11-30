@@ -1,0 +1,51 @@
+.subject-add-container{
+  width: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 10px;
+    position: relative; 
+  
+}
+.subject-add-btn{
+  width: 12%;
+  height: 160px;
+  margin-top: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 100%;
+  background-color: #4aa65b;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.subjectadd-form{
+    width: 92%;
+    height: 30vh;
+    margin-top: 20px;
+    padding: 1%;
+    background-color:white;
+    border-radius: 10px;
+    position: relative;
+   
+   
+  }
+  .subjectadd-form table {
+    width: 80%;
+    border-spacing: 0;
+  }
+  .subjectadd-form th,.subjectadd-form td {
+  
+    border-bottom: solid 1px;
+  }
+  .subjectadd-form th {
+    text-align: left;
+    padding: 2%;
+  }
+  @media screen and (max-width: 1024px) {
+    .subject-add-btn{
+      width: 120px;
+      height: 100px;
+
+    }
+  }

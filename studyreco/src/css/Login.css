@@ -1,0 +1,32 @@
+.login-container{
+    width: 50%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2%;
+    border-radius: 10px;
+  }
+.login-btns{
+    margin-top: 10px;
+}
+.login-btn{
+  margin-top: 10px;
+  width: 26%;
+  height: 6vh;
+  margin-right: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+}
+.register-btn{
+  margin-left: 10px;
+  width: 26%;
+  height: 6vh;
+  margin-right: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  background-color: #4aa65b;
+  color: white;
+}
+.login-container input{
+  width: 60%;
+}
